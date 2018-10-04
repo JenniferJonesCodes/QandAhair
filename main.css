@@ -1,0 +1,57 @@
+.hero-image{
+    background-image: url("bun-girl-hairs-9634.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.hero-text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+}
+
+.services-image{
+    background-image: url("close-up-dark-dark-green-1228133.jpg");
+    height: 600px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+table {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+}
+
+a:link {
+    text-decoration: none;
+}

@@ -18,21 +18,71 @@
     <div>
         <h2 style="font-size: 30px">Book Now</h2>
     </div>
-    <div class="service-box">
-        <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Color</a></h3>
-    </div>
-    <div class="service-box">
-        <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Cut</a></h3>
-    </div>
-    <div class="service-box">
-        <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Waxing</a></h3>
-    </div>
-    <div class="service-box">
-        <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Hairstyling</a></h3>
+    <div class="service-grid">
+        <div class="service-box">
+            <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Color</a></h3>
+        </div>
+        <div class="service-box">
+            <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Cut</a></h3>
+        </div>
+        <div class="service-box">
+            <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Waxing</a></h3>
+        </div>
+        <div class="service-box">
+            <h3><a href="https://www.fresha.com/q-a-hair-studio-dk5auq71/booking?menu=true">Hairstyling</a></h3>
+        </div>
     </div>
 
-    <div class="services-image">
+    <div class="services-image" style="overflow-x:auto;">
+        <table>
+            <tr>
+                <th><h3>Style</h3></th>
+            </tr>
+            <tr>
+                <th>Haircut</th>
+                <th>$20</th>
+            </tr>
+            <tr> 
+                <th>Blowdry</th>
+                <th>$23</th>
+            </tr>
+            <tr>
+                <th><h3>Color</h3></th>
+            </tr>
+            <tr>
+                <th>Single Application</th>
+                <th>$57+</th>
+            </tr>
+            <tr>
+                <th>Partial Highlights</th>
+                <th>$61+</th>
+            </tr>
+            <tr>
+                <th>Full Highlights</th>
+                <th>$86+</th>
+            </tr>
+            <tr>
+                <th>Color+Partial</th>
+                <th>$115+</th>
+            </tr>
 
+        </table>
+    </div>
+    <div>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
     </div>
     <footer class="page-footer font-small">
         <a name="contact"></a>
